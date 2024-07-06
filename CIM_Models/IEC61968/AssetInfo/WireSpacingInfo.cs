@@ -28,12 +28,12 @@ namespace TC57CIM.IEC61968.AssetInfo {
 		/// <summary>
 		/// If true, this spacing data describes a cable.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Boolean isCable;
+		public System.Boolean isCable;
 		/// <summary>
 		/// Number of wire sub-conductors in the symmetrical bundle (typically between 1
 		/// and 4).
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer phaseWireCount;
+		public System.Int32 phaseWireCount;
 		/// <summary>
 		/// Distance between wire sub-conductors in a symmetrical bundle.
 		/// </summary>

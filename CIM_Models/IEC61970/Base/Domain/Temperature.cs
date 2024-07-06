@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		public static readonly UnitMultiplier multiplier = UnitMultiplier.none;
 		public static readonly UnitSymbol unit = UnitSymbol.degC;
-		public Float value;
+		public System.Single value;
 
 		public Temperature(){
 

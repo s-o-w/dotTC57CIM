@@ -26,11 +26,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Date fumigant was last applied.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date fumigantAppliedDate;
+		public System.DateOnly fumigantAppliedDate;
 		/// <summary>
 		/// Name of fumigant.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.String fumigantName;
+		public System.String fumigantName;
 		/// <summary>
 		/// Visible height of structure above ground level for overhead construction (e.g.,
 		/// Pole or Tower) or below ground level for an underground vault, manhole, etc.
@@ -49,11 +49,11 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// True if weeds are to be removed around asset.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Boolean removeWeed;
+		public System.Boolean removeWeed;
 		/// <summary>
 		/// Date weed were last removed.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Date weedRemovedDate;
+		public System.DateOnly weedRemovedDate;
 		/// <summary>
 		/// Structure support for this structure.
 		/// </summary>

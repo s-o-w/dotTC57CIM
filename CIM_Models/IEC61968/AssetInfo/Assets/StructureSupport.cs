@@ -28,7 +28,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// (if anchor) Number of rods used.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.Integer anchorRodCount;
+		public System.Int32 anchorRodCount;
 		/// <summary>
 		/// (if anchor) Length of rod used.
 		/// </summary>
@@ -48,7 +48,7 @@ namespace TC57CIM.IEC61968.AssetInfo.Assets {
 		/// <summary>
 		/// Size of this support structure.
 		/// </summary>
-		public TC57CIM.IEC61970.Base.Domain.String size;
+		public System.String size;
 
 		public StructureSupport(){
 

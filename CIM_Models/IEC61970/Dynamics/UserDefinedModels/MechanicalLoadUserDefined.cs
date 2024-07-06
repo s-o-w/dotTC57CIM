@@ -6,21 +6,14 @@
 //  Original author: ppbr003
 ///////////////////////////////////////////////////////////
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.IO;
-
-
-
-using TC57CIM.IEC61970.Base.Domain;
 using TC57CIM.IEC61970.Dynamics.StandardModels.MechanicalLoadDynamics;
-namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels {
-	/// <summary>
-	/// Mechanical load function block whose dynamic behaviour is described by <font
-	/// color="#0f0f0f">a user-defined model.</font>
-	/// </summary>
-	public class MechanicalLoadUserDefined : MechanicalLoadDynamics {
+namespace TC57CIM.IEC61970.Dynamics.UserDefinedModels
+{
+    /// <summary>
+    /// Mechanical load function block whose dynamic behaviour is described by <font
+    /// color="#0f0f0f">a user-defined model.</font>
+    /// </summary>
+    public class MechanicalLoadUserDefined : MechanicalLoadDynamics {
 
 		/// <summary>
 		/// Behaviour is based on a proprietary model as opposed to a detailed model.

@@ -21,7 +21,7 @@ namespace TC57CIM.IEC61970.Base.Domain {
 
 		public UnitMultiplier multiplier;
 		public static readonly UnitSymbol unit = UnitSymbol.V;
-		public Float value;
+		public System.Single value;
 
 		public Voltage(){
 
